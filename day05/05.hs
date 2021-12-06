@@ -18,7 +18,7 @@ pointsInLine diag ((x1, y1), (x2, y2))
         sY = signum (y2-y1)
 
 pointsOccurence :: Int -> [Point] -> Int
-pointsOccurence n ps = length $ (map head . filter (\x -> length x >= n) . group . sort) ps
+pointsOccurence n ps = length $ (filter (\x -> length x >= n) . group . sort) ps
 
 parseLine :: String -> Line
 parseLine s = (parsePoint $ head p, parsePoint $ last p)
