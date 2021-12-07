@@ -1,0 +1,11 @@
+dependencies:
+  - split
+  - containers
+  - base
+
+source-dirs: .
+
+executables:
+  day06:
+    main: 06.hs
+    source-dirs: .
