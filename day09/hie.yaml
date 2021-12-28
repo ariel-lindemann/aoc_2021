@@ -1,0 +1,4 @@
+cradle:
+  cabal:
+    - path: "./09.hs"
+      component: "day09:exe:day09"
