@@ -2,3 +2,5 @@
 *.hi
 .stack-work
 test
+
+*/dist-newstyle
